@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Padding & Margin spacing -->
+    <dimen name="spacing_micro">2dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_huge">32dp</dimen>
+
+    <!-- Card dimensions & Radii -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="chip_corner_radius">20dp</dimen>
+
+    <!-- Image Heights -->
+    <dimen name="item_list_image_size">90dp</dimen>
+    <dimen name="item_detail_image_height">240dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subhead">16sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_headline">22sp</dimen>
+
+    <!-- Button Heights -->
+    <dimen name="button_height">48dp</dimen>
+</resources>

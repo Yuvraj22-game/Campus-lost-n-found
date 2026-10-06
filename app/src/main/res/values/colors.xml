@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep Teal Primary -->
+    <color name="teal_primary">#005B60</color>
+    <color name="teal_primary_variant">#00383B</color>
+    <color name="teal_primary_container">#E0F2F1</color>
+    <color name="teal_on_primary">#FFFFFF</color>
+    <color name="teal_on_primary_container">#002022</color>
+
+    <!-- Warm Amber Secondary / Accent -->
+    <color name="amber_accent">#FF8F00</color>
+    <color name="amber_accent_variant">#C66900</color>
+    <color name="amber_accent_container">#FFF8E1</color>
+    <color name="amber_on_accent">#000000</color>
+    <color name="amber_on_accent_container">#402D00</color>
+
+    <!-- Status Colors -->
+    <!-- Lost (Coral / Red) -->
+    <color name="status_lost">#D32F2F</color>
+    <color name="status_lost_bg">#FFEBEE</color>
+    <color name="status_lost_text">#B71C1C</color>
+
+    <!-- Found (Emerald / Green) -->
+    <color name="status_found">#2E7D32</color>
+    <color name="status_found_bg">#E8F5E9</color>
+    <color name="status_found_text">#1B5E20</color>
+
+    <!-- Resolved (Slate / Gray) -->
+    <color name="status_resolved">#616161</color>
+    <color name="status_resolved_bg">#F5F5F5</color>
+    <color name="status_resolved_text">#424242</color>
+
+    <!-- Aging / Old Item Badge (Orange / Dark Amber) -->
+    <color name="badge_aging">#E65100</color>
+    <color name="badge_aging_bg">#FFF3E0</color>
+
+    <!-- Neutral & Backgrounds -->
+    <color name="window_background">#F8F9FA</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_card_stroke">#E0E0E0</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="divider_color">#EEEEEE</color>
+
+    <!-- Dark Mode Specific Base Overrides -->
+    <color name="window_background_dark">#121212</color>
+    <color name="surface_card_dark">#1E1E1E</color>
+    <color name="surface_card_stroke_dark">#2C2C2C</color>
+    <color name="text_primary_dark">#EEEEEE</color>
+    <color name="text_secondary_dark">#B0B0B0</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General & App Title -->
+    <string name="app_name">Boomerang – Campus Lost &amp; Found</string>
+    <string name="app_tagline">Smart Campus Lost &amp; Found Portal</string>
+
+    <!-- Navigation Labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add_item">Report Item</string>
+    <string name="nav_my_items">My Activity</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Filter Tabs & Status Strings -->
+    <string name="tab_all">All Items</string>
+    <string name="tab_lost">Lost Items</string>
+    <string name="tab_found">Found Items</string>
+    <string name="status_active">Active</string>
+    <string name="status_resolved">Resolved</string>
+    <string name="type_lost">LOST</string>
+    <string name="type_found">FOUND</string>
+
+    <!-- Search & Filter Options -->
+    <string name="search_hint">Search items, keywords, or zone...</string>
+    <string name="filter_category_all">All Categories</string>
+    <string name="filter_type_all">All Types</string>
+    <string name="menu_sort">Sort Items</string>
+    <string name="menu_sort_newest">Newest First</string>
+    <string name="menu_sort_oldest">Oldest First</string>
+    <string name="menu_refresh">Refresh List</string>
+    <string name="menu_about">About App</string>
+    <string name="menu_view_details">View Details</string>
+    <string name="menu_edit_report">Edit Report</string>
+    <string name="menu_delete_listing">Delete Listing</string>
+
+    <!-- Categories -->
+    <string name="cat_electronics">Electronics</string>
+    <string name="cat_books">Books &amp; Documents</string>
+    <string name="cat_cards">ID Cards &amp; Wallets</string>
+    <string name="cat_keys">Keys &amp; Chains</string>
+    <string name="cat_clothing">Clothing &amp; Accessories</string>
+    <string name="cat_personal">Personal Belongings</string>
+    <string name="cat_others">Others</string>
+
+    <!-- Campus Zones -->
+    <string name="zone_library">Central Library</string>
+    <string name="zone_canteen">Student Canteen</string>
+    <string name="zone_academic">Academic Block</string>
+    <string name="zone_sports">Sports Complex</string>
+    <string name="zone_hostel">Hostels Block</string>
+    <string name="zone_auditorium">Main Auditorium</string>
+    <string name="zone_parking">Campus Parking</string>
+    <string name="zone_others">Other Campus Area</string>
+
+    <!-- Item Detail Strings -->
+    <string name="label_type">Item Type:</string>
+    <string name="label_category">Category:</string>
+    <string name="label_zone">Campus Zone:</string>
+    <string name="label_date">Date Reported / Found:</string>
+    <string name="label_description">Description:</string>
+    <string name="label_posted_by">Posted By Roll No:</string>
+    <string name="label_contact_phone">Contact Phone:</string>
+    <string name="label_contact_email">Contact Email:</string>
+    <string name="label_verification_q">Claim Verification Question:</string>
+    <string name="label_verification_hint">Enter answer to prove ownership...</string>
+    <string name="btn_verify_claim">Verify Claim Answer</string>
+    <string name="btn_call_contact">Call Contact</string>
+    <string name="btn_email_contact">Send Email</string>
+    <string name="btn_mark_resolved">Mark as Resolved</string>
+    <string name="btn_share">Share Listing</string>
+
+    <!-- Report Form (Add Item) -->
+    <string name="title_add_item">Report Lost or Found Item</string>
+    <string name="hint_item_title">e.g., Blue Casio Calculator</string>
+    <string name="hint_description">Provide detailed description (brand, color, marks...)</string>
+    <string name="label_select_type">What are you reporting?</string>
+    <string name="label_select_category">Select Category</string>
+    <string name="label_select_zone">Select Campus Zone Tag</string>
+    <string name="label_add_photo">Attach Item Photo (Optional)</string>
+    <string name="btn_take_photo">Camera</string>
+    <string name="btn_choose_gallery">Gallery</string>
+    <string name="label_verification_q_prompt">Verification Question for Finder (e.g. Passcode pattern, engraving details):</string>
+    <string name="label_verification_a_prompt">Expected Answer (kept confidential):</string>
+    <string name="chk_public_phone">Display my phone number publicly</string>
+    <string name="btn_submit_item">Publish Report</string>
+
+    <!-- Aging Badges -->
+    <string name="aging_today">Today</string>
+    <string name="aging_yesterday">Yesterday</string>
+    <string name="aging_days_ago">%d days ago</string>
+    <string name="aging_old">Old (30+ days)</string>
+
+    <!-- Smart Match Suggestions -->
+    <string name="title_smart_matches">Smart Match Suggestions</string>
+    <string name="subtitle_smart_matches">Potential lost/found pairs matching category, location &amp; keywords</string>
+    <string name="match_score_format">%d%% Match Score</string>
+    <string name="match_high">High Probability Match</string>
+    <string name="match_medium">Moderate Match</string>
+    <string name="match_low">Possible Match</string>
+    <string name="no_matches_found">No potential smart matches found yet.</string>
+
+    <!-- Settings & Profile -->
+    <string name="title_settings">Settings &amp; Preferences</string>
+    <string name="section_user_profile">User Profile</string>
+    <string name="label_student_name">Student Name</string>
+    <string name="label_roll_number">Roll / ID Number</string>
+    <string name="section_preferences">App Preferences</string>
+    <string name="label_language">Language / भाषा</string>
+    <string name="label_theme">Appearance Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="label_notifications">Match Notifications</string>
+    <string name="section_stats">Campus Lost &amp; Found Statistics</string>
+    <string name="stat_active_lost">Active Lost Items</string>
+    <string name="stat_active_found">Active Found Items</string>
+    <string name="stat_resolved">Items Returned / Resolved</string>
+    <string name="btn_save_settings">Save Profile Settings</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="toast_item_saved">Item posted successfully!</string>
+    <string name="toast_item_resolved">Item status updated to Resolved!</string>
+    <string name="toast_settings_saved">Preferences saved successfully!</string>
+    <string name="toast_claim_correct">Answer matches! Contact options unlocked.</string>
+    <string name="toast_claim_incorrect">Incorrect answer. Please verify and try again.</string>
+    <string name="toast_permission_denied">Permission required for this action.</string>
+    <string name="toast_no_app_found">No application available to handle this action.</string>
+    <string name="empty_items_title">No Items Found</string>
+    <string name="empty_items_desc">Try clearing your filters or report a new lost/found item.</string>
+
+    <!-- Phase 3 Dialog Strings -->
+    <string name="dialog_delete_title">Delete Listing?</string>
+    <string name="dialog_delete_msg">Are you sure you want to permanently delete this item report?</string>
+    <string name="dialog_resolve_title">Mark as Resolved?</string>
+    <string name="dialog_resolve_msg">This will archive the item and mark it as returned to its owner.</string>
+    <string name="dialog_photo_title">Attach Item Photo</string>
+    <string name="dialog_photo_msg">Choose how you want to add a photo of the item.</string>
+    <string name="dialog_success_title">Report Published!</string>
+    <string name="dialog_success_msg">Your item report has been published to the campus portal.</string>
+    <string name="dialog_verification_required_title">Verification Required</string>
+    <string name="dialog_verification_required_msg">You must verify ownership answer first before contacting the finder.</string>
+    <string name="dialog_camera_permission_title">Camera Access Required</string>
+    <string name="dialog_camera_permission_msg">Campus Lost &amp; Found needs camera access to capture item photos.</string>
+    <string name="dialog_notification_permission_title">Notification Access</string>
+    <string name="dialog_notification_permission_msg">Enable notifications to receive instant alerts when a smart match is found.</string>
+    <string name="btn_open_policy">View Campus Guidelines</string>
+    <string name="campus_guidelines_url">https://www.google.com</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme using Material3 DayNight -->
+    <style name="Base.Theme.CampusLostandFound" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorOnPrimary">@color/teal_on_primary</item>
+        <item name="colorPrimaryContainer">@color/teal_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/teal_on_primary_container</item>
+
+        <item name="colorSecondary">@color/amber_accent</item>
+        <item name="colorOnSecondary">@color/amber_on_accent</item>
+        <item name="colorSecondaryContainer">@color/amber_accent_container</item>
+        <item name="colorOnSecondaryContainer">@color/amber_on_accent_container</item>
+
+        <item name="android:colorBackground">@color/window_background</item>
+        <item name="colorSurface">@color/surface_card</item>
+
+        <!-- System bar styling -->
+        <item name="android:statusBarColor">@color/teal_primary_variant</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.CampusLostandFound" parent="Base.Theme.CampusLostandFound" />
+
+    <!-- Rounded Card View Style -->
+    <style name="RoundedCardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="strokeColor">@color/surface_card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="AppPrimaryButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+</resources>
